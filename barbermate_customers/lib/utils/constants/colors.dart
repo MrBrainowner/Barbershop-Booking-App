@@ -1,0 +1,3 @@
+class BarbermateColors {
+  BarbermateColors._();
+}

@@ -1,0 +1,23 @@
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+
+  color: 'EEEEEE'
+  image: 'assets/images/splash/barbermate_logo/ic_launcher_monochrome.png'
+  branding: 'assets/images/splash/barbermate_logo/Barbermate_dark.png'
+
+  color_dark: '222831'
+  image_dark: 'assets/images/splash/barbermate_logo/ic_launcher_foreground.png'
+  branding_dark: 'assets/images/splash/barbermate_logo/Barbermate_white.png'
+
+  android_12:
+    color: 'EEEEEE'
+    image: 'assets/images/splash/barbermate_logo/ic_launcher_monochrome.png'
+    branding: 'assets/images/splash/barbermate_logo/Barbermate_dark.png'
+
+    color_dark: '222831'
+    image_dark: 'assets/images/splash/barbermate_logo/ic_launcher_foreground.png'
+    branding_dark: 'assets/images/splash/barbermate_logo/Barbermate_white.png'
+    
+  
