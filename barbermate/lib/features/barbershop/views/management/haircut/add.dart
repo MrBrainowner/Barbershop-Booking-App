@@ -94,17 +94,6 @@ class HaircutAddPage extends StatelessWidget {
                           keyboardtype: TextInputType.number,
                         ),
                       ),
-                      const SizedBox(width: 10),
-                      Expanded(
-                        child: MyTextField(
-                          validator: validator.validateEmpty,
-                          controller: controller.durationController,
-                          labelText: 'Duration (Minutes)',
-                          obscureText: false,
-                          icon: null,
-                          keyboardtype: TextInputType.number,
-                        ),
-                      ),
                     ],
                   ),
                   const SizedBox(height: 10),

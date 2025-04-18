@@ -3,7 +3,6 @@ import 'package:barbermate_admin/data/models/haircut_model/haircut_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
 import 'package:logger/logger.dart';
 import '../../models/user_authenthication_model/barbershop_model.dart';
 import '../../../utils/exceptions/firebase_exceptions.dart';

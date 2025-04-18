@@ -17,7 +17,6 @@ class HaircutController extends GetxController {
 
   final nameController = TextEditingController();
   final priceController = TextEditingController();
-  final durationController = TextEditingController();
   Rx<File?> selectedImage = Rx<File?>(null);
 
   RxList<HaircutModel> haircuts = <HaircutModel>[].obs;
@@ -42,7 +41,6 @@ class HaircutController extends GetxController {
   void resetForm() {
     nameController.clear();
     priceController.clear();
-    durationController.clear();
     selectedImage.value = null; // Reset image URL
   }
 
@@ -69,7 +67,6 @@ class HaircutController extends GetxController {
       final haircut = HaircutModel(
         name: nameController.text,
         price: double.parse(priceController.text),
-        duration: int.parse(durationController.text),
         category: selectedCategories,
         imageUrl: '', // Initially empty
         createdAt: DateTime.now(),
@@ -127,7 +124,6 @@ class HaircutController extends GetxController {
       final haircutUpdate = haircut.copyWith(
         name: nameController.text,
         price: double.parse(priceController.text),
-        duration: int.parse(durationController.text),
         category: selectedCategories,
         imageUrl: '', // Update image URL if necessary
       );

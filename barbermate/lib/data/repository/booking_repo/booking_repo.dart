@@ -1,15 +1,12 @@
 import 'package:barbermate/data/models/booking_model/booking_model.dart';
 import 'package:barbermate/data/repository/auth_repo/auth_repo.dart';
 import 'package:barbermate/data/repository/notifications_repo/notifications_repo.dart';
-import 'package:barbermate/data/services/push_notification/push_notification.dart';
-import 'package:barbermate/data/models/user_authenthication_model/customer_model.dart';
 import 'package:barbermate/utils/exceptions/firebase_exceptions.dart';
 import 'package:barbermate/utils/exceptions/format_exceptions.dart';
 import 'package:barbermate/utils/exceptions/platform_exceptions.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import '../../models/user_authenthication_model/barbershop_model.dart';
 
 class BookingRepo extends GetxController {
   static BookingRepo get instance => Get.find();

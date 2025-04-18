@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
 
 import '../../models/user_authenthication_model/customer_model.dart';
 import '../../../utils/exceptions/firebase_exceptions.dart';

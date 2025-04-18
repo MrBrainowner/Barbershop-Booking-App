@@ -2,7 +2,6 @@ import 'package:barbermate_admin/data/models/barbershops_verfication_model/docum
 import 'package:barbermate_admin/data/models/user_authenthication_model/barbershop_model.dart';
 import 'package:barbermate_admin/features/admin/controllers/barbershop_controller.dart';
 import 'package:barbermate_admin/features/admin/controllers/haircut_controller.dart';
-import 'package:barbermate_admin/features/admin/controllers/notification_controller.dart';
 import 'package:barbermate_admin/features/admin/controllers/review_controller.dart';
 import 'package:barbermate_admin/features/admin/views/profiles/reviews.dart';
 import 'package:barbermate_admin/features/admin/views/widgets/barbershop_profile.dart';

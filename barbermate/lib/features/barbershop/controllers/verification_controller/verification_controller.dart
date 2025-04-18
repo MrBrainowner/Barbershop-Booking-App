@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:barbermate/common/widgets/toast.dart';
 import 'package:barbermate/data/models/barbershops_verfication_model/document_model.dart';
-import 'package:barbermate/data/repository/auth_repo/auth_repo.dart';
 import 'package:barbermate/data/repository/barbershop_repo/documents_verification_repo.dart';
 import 'package:barbermate/data/repository/notifications_repo/notifications_repo.dart';
 import 'package:barbermate/features/barbershop/controllers/barbershop_controller/barbershop_controller.dart';

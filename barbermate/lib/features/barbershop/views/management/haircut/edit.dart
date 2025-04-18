@@ -20,7 +20,6 @@ class HaircutEditPage extends StatelessWidget {
     final validator = Get.put(ValidatorController());
     controller.nameController.text = haircut.name;
     controller.priceController.text = haircut.price.toString();
-    controller.durationController.text = haircut.duration.toString();
     controller.selectedCategories.value = haircut.category;
     final categoryController = Get.put(CategorySelectionController());
     categoryController.selectedOptionsList.value = haircut.category;
@@ -108,17 +107,6 @@ class HaircutEditPage extends StatelessWidget {
                           validator: validator.validateEmpty,
                           controller: controller.priceController,
                           labelText: 'Price',
-                          obscureText: false,
-                          icon: null,
-                          keyboardtype: TextInputType.number,
-                        ),
-                      ),
-                      const SizedBox(width: 10),
-                      Expanded(
-                        child: MyTextField(
-                          validator: validator.validateEmpty,
-                          controller: controller.durationController,
-                          labelText: 'Duration (Minutes)',
                           obscureText: false,
                           icon: null,
                           keyboardtype: TextInputType.number,

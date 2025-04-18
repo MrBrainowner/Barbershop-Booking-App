@@ -1,4 +1,3 @@
-import 'package:barbermate_customers/common/controller/showcase_controller.dart';
 import 'package:barbermate_customers/data/repository/barbershop_repo/barbershop_repo.dart';
 import 'package:barbermate_customers/data/repository/barbershop_repo/haircut_repository.dart';
 import 'package:barbermate_customers/data/repository/barbershop_repo/timeslot_repository.dart';

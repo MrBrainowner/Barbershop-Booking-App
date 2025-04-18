@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:barbermate_admin/data/repository/auth_repo/auth_repo.dart';
+import 'package:barbermate_admin/features/admin/views/notifications/notifications.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -119,9 +120,9 @@ class NotificationServiceRepository {
   }
 
   void _handleBackgroundMessage(RemoteMessage message) {
-    // if (AuthenticationRepository.instance.authUser != null) {
-
-    // }
+    if (AuthenticationRepository.instance.authUser != null) {
+      Get.to(()=> AdminNotificationsPage());
+    }
   }
 
   // Fetch and listen for token updates

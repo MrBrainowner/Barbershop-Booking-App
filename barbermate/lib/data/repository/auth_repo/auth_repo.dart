@@ -1,6 +1,4 @@
 import 'package:barbermate/common/widgets/toast.dart';
-import 'package:barbermate/features/barbershop/controllers/notification_controller/notification_controller.dart';
-import 'package:barbermate/utils/popups/full_screen_loader.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/services.dart';

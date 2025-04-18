@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../../utils/validators/validators.dart';
 import '../../../controllers/signup_controller/barbershop_sign_up_controller.dart';
 import '../../sign_in/sign_in_widgets/textformfield.dart';
 

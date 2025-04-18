@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'package:barbermate/data/models/haircut_model/haircut_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:crypto/crypto.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_image_compress/flutter_image_compress.dart';

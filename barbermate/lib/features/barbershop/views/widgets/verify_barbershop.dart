@@ -2,7 +2,6 @@ import 'package:barbermate/data/models/barbershops_verfication_model/document_mo
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../controllers/verification_controller/verification_controller.dart';
-import 'package:iconoir_flutter/iconoir_flutter.dart' as iconoir;
 import 'package:path/path.dart'; // Import path package to use basename
 
 class VerifyBarbershop extends StatelessWidget {
